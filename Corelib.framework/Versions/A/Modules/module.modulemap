@@ -1,0 +1,8 @@
+framework module "Corelib" {
+	header "ref.h"
+    header "Corelib.objc.h"
+    header "universe.objc.h"
+    header "Corelib.h"
+
+    export *
+}
